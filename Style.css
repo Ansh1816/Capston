@@ -193,3 +193,22 @@ nav .nav-links a {
     font-weight: 400;
     color: rgba(235, 221, 209, 0.62);
   }  
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 10em;
+    align-items: center;
+  }
+  
+  footer button {
+    font-family: "Roboto Mono", monospace !important;
+    padding: 12px 20px;
+    background-color: transparent;
+    color: rgba(228, 222, 215, 1);
+    border: 1px solid rgba(182, 163, 145, 0.2);
+    border-radius: 8px;
+    cursor: pointer;
+  }
