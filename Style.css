@@ -182,12 +182,16 @@ nav .nav-links a {
   height: 90%;
   border: 1px solid rgba(182, 163, 145, 0.2);
 }
+.card-head{
+  justify-self: start;
+}
 .card-head p {
   font-weight: 500;
   color: rgba(228, 222, 215, 1);
 }
 
 .card-head p + p {
+  
   font-weight: 400;
   color: rgba(235, 221, 209, 0.62);
 }
